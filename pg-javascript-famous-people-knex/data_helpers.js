@@ -24,7 +24,11 @@ const addPerson = function (fname, lname, bdate, callback) {
       return callback(null)
     })
     .catch((err) =>  {
-      return callback(err); knex.destroy()
+      return callback(err)
+      knex.destroy()
+    })
+    .then((err) => {
+      knex.destroy()
     })
 }
 
