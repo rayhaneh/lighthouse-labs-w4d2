@@ -9,6 +9,7 @@
   "author": "Rayhaneh Banyassady",
   "license": "ISC",
   "dependencies": {
+    "knex": "^0.13.0",
     "pg": "^7.1.2"
   }
 }
