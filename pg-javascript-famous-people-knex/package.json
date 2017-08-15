@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "knex": "^0.13.0",
+    "moment": "^2.18.1",
     "pg": "^7.1.2"
   }
 }
