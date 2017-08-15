@@ -24,6 +24,7 @@ client.connect((err) => {
     result = result.rows
     if (result.length !== 0){
       for (let index in result) {
+
         let id    = result[index].id
         let fname = result[index].first_name
         let lname = result[index].last_name
